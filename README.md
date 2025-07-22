@@ -47,14 +47,14 @@ sudo nixos-rebuild switch --flake .#hostname
    git clone https://github.com/randoneering/nix-llama.git
    cd nix-llama
    ```
-2. **Add your configurations**:
-  Input your hostname, server-ip, and relevant information in the flake. Once completed..
-  ```bash
-  sudo nixos-rebuild switch --flake .#yourhostname
-  ```
+
+2. **After adding your configurations**:
+   ```bash
+   sudo nixos-rebuild switch --flake .#yourhostname
+   ```
 
 3. **Login to OpenWebUI and have fun!**
-  Access OpenWebUI through `http://yourserverip:8080`
+   Access OpenWebUI through `http://yourserverip:8080`
 ---
 
 
