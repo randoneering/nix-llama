@@ -5,13 +5,13 @@ An easy to deploy nix flake with Ollama and OpenWebUI.
 
 ---
 
-## 🧠 Overview
+## Overview
 
 This project uses **Nix** (a declarative, reproducible package manager) to create a consistent environment for working with Llama models. It includes configurations for installing dependencies, setting up hardware acceleration (e.g., CUDA, ROCm), and managing versioned software stacks.
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - **GPU support** (optional but recommended for faster inference/training):
   - NVIDIA GPU + CUDA toolkit
@@ -71,7 +71,7 @@ sudo nixos-rebuild switch --flake .#hostname
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [GPL-v3](LICENSE). See the `LICENSE` file for details.
 
