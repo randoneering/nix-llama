@@ -5,17 +5,11 @@ An easy to deploy nix flake with Ollama and OpenWebUI.
 
 ---
 
-## Overview
-
-This project uses **Nix** (a declarative, reproducible package manager) to create a consistent environment for working with Llama models. It includes configurations for installing dependencies, setting up hardware acceleration (e.g., CUDA, ROCm), and managing versioned software stacks.
-
----
-
 ## Requirements
 
 - **GPU support** (optional but recommended for faster inference/training):
-  - NVIDIA GPU + CUDA toolkit
-  - AMD GPU + ROCm
+  - NVIDIA GPU + CUDA toolkit (covered in flake)
+  - AMD GPU + ROCm (not covered in flake)
 - **System resources**:
   - At least **8GB RAM** (more for larger models)
   - **SSD storage** for models
