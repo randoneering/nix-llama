@@ -23,6 +23,7 @@
       DO_NOT_TRACK = "True";
       SCARF_NO_ANALYTICS = "True";
       OLLAMA_API_BASE_URL = "http://{yourserverip}:11434/api";
+      OLLAMA_BASE_URL = "http://{yourserverip}:11434";
     };
   };
 
